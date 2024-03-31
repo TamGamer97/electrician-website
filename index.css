@@ -1,0 +1,3165 @@
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103 {
+  width: 100%;
+  height: 5281px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-header {
+  top: 164.63999938964844px;
+  left: 0px;
+  width: 1920px;
+  height: 830px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(240, 246, 249, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divheaderbg {
+  top: 332px;
+  left: 288px;
+  width: 1344px;
+  height: 498px;
+  display: flex;
+  opacity: 0.10;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-pictureimgheaderbglqwebp {
+  top: 0px;
+  left: 0px;
+  width: 1344px;
+  height: 905.8300170898438px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_d33h7ohyie-awkp-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-bg3 {
+  top: -564.7628173828125px;
+  left: 25.496826171875px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer {
+  top: 291.5px;
+  left: 620px;
+  width: 680px;
+  height: 246.97999572753906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol12 {
+  top: 0px;
+  left: 0px;
+  width: 680px;
+  height: 182.97999572753906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text {
+  top: -51px;
+  left: 30px;
+  color: rgba(68, 68, 68, 1);
+  width: 623px;
+  height: auto;
+  position: absolute;
+  font-size: 56px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Zilla Slab;
+  font-weight: 700;
+  line-height: 67.19999694824219px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form {
+  top: 182.99000549316406px;
+  left: 15px;
+  width: 310px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10999999940395355) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.0020000000949949026);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spaninputgrouptext {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg {
+  top: 13px;
+  left: 12px;
+  width: 20px;
+  height: 28px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-input {
+  top: 0px;
+  right: 0px;
+  width: 266px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 1px 4px 4px 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divplaceholder {
+  top: 16.5px;
+  left: 30.3799991607666px;
+  width: 226px;
+  height: 21px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text002 {
+  color: rgba(108, 117, 125, 1);
+  width: 224px;
+  height: auto;
+  position: absolute;
+  font-size: 17.859375px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form-button {
+  top: 182.99000549316406px;
+  left: 355px;
+  width: 310px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10999999940395355) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(255, 219, 91, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text004 {
+  top: 2px;
+  left: 67.62999725341797px;
+  color: rgba(255, 255, 255, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text006 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text007 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text008 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section {
+  top: 994.6400146484375px;
+  left: 0px;
+  width: 1920px;
+  height: 494.95001220703125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1201 {
+  top: 79.19999694824219px;
+  left: 390px;
+  width: 570px;
+  height: 415.75px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text009 {
+  top: -0.800000011920929px;
+  left: 15px;
+  color: rgba(68, 68, 68, 1);
+  width: 434px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text011 {
+  top: 88.037353515625px;
+  left: 15.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 540px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text013 {
+  top: 340.3599853515625px;
+  left: 15px;
+  color: rgba(0, 145, 207, 1);
+  width: 103px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divshadowfull {
+  top: 80px;
+  left: 1070px;
+  width: 445px;
+  height: 383.1600036621094px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10999999940395355) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text015 {
+  top: 35.20000076293945px;
+  left: 36px;
+  color: rgba(68, 68, 68, 1);
+  width: 283px;
+  height: auto;
+  position: absolute;
+  font-size: 17.859375px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 21.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg1 {
+  top: 82.38999938964844px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text017 {
+  top: 77.29000091552734px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 180px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg2 {
+  top: 117.98999786376953px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text019 {
+  top: 112.88999938964844px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 182px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg3 {
+  top: 153.5800018310547px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text021 {
+  top: 148.47999572753906px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg4 {
+  top: 189.1699981689453px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text023 {
+  top: 184.0800018310547px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg5 {
+  top: 224.77000427246094px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text025 {
+  top: 219.6699981689453px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg6 {
+  top: 260.3599853515625px;
+  left: 36px;
+  width: 21px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text027 {
+  top: 255.25999450683594px;
+  left: 73.41000366210938px;
+  color: rgba(68, 68, 68, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link {
+  top: 314.1600036621094px;
+  left: 36px;
+  width: 15px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilebluenewsvgfill {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text029 {
+  top: 307.2373046875px;
+  left: 61.496826171875px;
+  color: rgba(0, 145, 207, 1);
+  width: 141px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section1 {
+  top: 1489.5899658203125px;
+  left: 0px;
+  width: 1920px;
+  height: 396.2699890136719px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(246, 249, 240, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text031 {
+  top: 79.19999694824219px;
+  left: 591.4199829101562px;
+  color: rgba(68, 68, 68, 1);
+  width: 737px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text033 {
+  top: 203.287109375px;
+  left: 397.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 535px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text035 {
+  top: 203.287109375px;
+  left: 985.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 533px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section2 {
+  top: 1885.8599853515625px;
+  left: 0px;
+  width: 1920px;
+  height: 784.27001953125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer1 {
+  top: 79.19999694824219px;
+  left: 390px;
+  width: 1140px;
+  height: 625.0700073242188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1202 {
+  top: -0.800000011920929px;
+  left: 0px;
+  width: 1140px;
+  height: 105.0999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text039 {
+  top: -0.800000011920929px;
+  left: 376.75px;
+  color: rgba(68, 68, 68, 1);
+  width: 387px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text041 {
+  top: 53.22999954223633px;
+  left: 414.44000244140625px;
+  color: rgba(68, 68, 68, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 25.5px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 30.719999313354492px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text043 {
+  top: 104px;
+  left: 312.4800109863281px;
+  color: rgba(68, 68, 68, 1);
+  width: 515px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter {
+  top: 181.88999938964844px;
+  left: 15px;
+  width: 1110px;
+  height: 442.3800048828125px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4302imgwerkwijze1webp {
+  top: -53.07275390625px;
+  left: -64.503173828125px;
+  width: 371px;
+  height: 269.32275390625px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_nrin2ovwfh-w5hd-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep {
+  top: 216px;
+  left: 102.5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 145, 207, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text045 {
+  top: 10px;
+  left: 17.770000457763672px;
+  color: rgba(255, 255, 255, 1);
+  width: 15px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text046 {
+  top: 281.92724609375px;
+  left: 17.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 209px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text048 {
+  top: 349.2850036621094px;
+  left: 6.090000152587891px;
+  color: rgba(68, 68, 68, 1);
+  width: 243px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4305imgwerkwijze2webp {
+  top: -49.07275390625px;
+  left: 225.496826171875px;
+  width: 359px;
+  height: 261.16387939453125px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_kki1tmjbah-dhk-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep1 {
+  top: 216px;
+  left: 387.5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 145, 207, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text050 {
+  top: 10px;
+  left: 17.770000457763672px;
+  color: rgba(255, 255, 255, 1);
+  width: 15px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text051 {
+  top: 281.92724609375px;
+  left: 296.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 233px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text053 {
+  top: 348.92724609375px;
+  left: 286.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4308imgwerkwijze3webp {
+  top: -53.07275390625px;
+  left: 517.496826171875px;
+  width: 360px;
+  height: 261.8903503417969px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_5fkjt-mjp1-2aoi-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep2 {
+  top: 216px;
+  left: 672.5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 145, 207, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text055 {
+  top: 10px;
+  left: 17.770000457763672px;
+  color: rgba(255, 255, 255, 1);
+  width: 15px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text056 {
+  top: 281.92724609375px;
+  left: 576.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 242px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text058 {
+  top: 342.92724609375px;
+  left: 571.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 253px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4311imgwerkwijze4webp {
+  top: -57.07275390625px;
+  left: 794.496826171875px;
+  width: 362px;
+  height: 263.32275390625px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_trlsqo9ml0-8efc-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep3 {
+  top: 216px;
+  left: 957.5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 145, 207, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text060 {
+  top: 10px;
+  left: 17.770000457763672px;
+  color: rgba(255, 255, 255, 1);
+  width: 15px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text061 {
+  top: 281.92724609375px;
+  left: 886.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 192px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text063 {
+  top: 320.92724609375px;
+  left: 858.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 248px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section3 {
+  top: 2670.1298828125px;
+  left: 0px;
+  width: 1920px;
+  height: 751.5900268554688px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(249, 240, 240, 1) 50%, rgba(249, 240, 240, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer2 {
+  top: 79.19999694824219px;
+  left: 390px;
+  width: 1140px;
+  height: 592.3900146484375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1203 {
+  top: -0.800000011920929px;
+  left: 0px;
+  width: 1140px;
+  height: 93.0999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text065 {
+  top: -14.652587890625px;
+  left: 382.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 376px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Zilla Slab;
+  font-weight: 700;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text067 {
+  top: 53.22999954223633px;
+  left: 327.45001220703125px;
+  color: rgba(68, 68, 68, 1);
+  width: 485px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 30.719999313354492px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter1 {
+  top: 128.2899932861328px;
+  left: 15px;
+  width: 1110px;
+  height: 341.29998779296875px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text069 {
+  top: 253.30999755859375px;
+  color: rgba(52, 58, 64, 1);
+  width: 176px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text071 {
+  top: 276.25732421875px;
+  left: 0.496826171875px;
+  color: rgba(52, 58, 64, 1);
+  width: 398px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 35.20000076293945px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link01 {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3870stoppenkastwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_4_qzzboffo-y4cb-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg {
+  top: 0px;
+  left: 280px;
+  width: 40px;
+  height: 53px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 307px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text073 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 267px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg {
+  top: 175.72000122070312px;
+  left: 278.20001220703125px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text075 {
+  top: 201.72000122070312px;
+  left: 278.20001220703125px;
+  color: rgba(255, 255, 255, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-zekeringkast1 {
+  top: -73.74267578125px;
+  left: -45.503173828125px;
+  width: 442px;
+  height: 379px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text077 {
+  top: 253.30999755859375px;
+  left: 380px;
+  color: rgba(52, 58, 64, 1);
+  width: 176px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text079 {
+  top: 290.25732421875px;
+  left: 380.496826171875px;
+  color: rgba(52, 58, 64, 1);
+  width: 400px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 35.20000076293945px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link02 {
+  top: 0px;
+  left: 380px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3867elektrarenoverenwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_tnq_viiozw-iajg-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-kabelsstopcontact1 {
+  top: -143.74267578125px;
+  left: -50.503173828125px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg1 {
+  top: 0px;
+  left: 280px;
+  width: 40px;
+  height: 53px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat1 {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 210px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text081 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg1 {
+  top: 175.72000122070312px;
+  left: 278.20001220703125px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text083 {
+  top: 201.72000122070312px;
+  left: 278.20001220703125px;
+  color: rgba(255, 255, 255, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text085 {
+  top: 253.30999755859375px;
+  left: 760px;
+  color: rgba(52, 58, 64, 1);
+  width: 176px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text087 {
+  top: 290.010009765625px;
+  left: 760px;
+  color: rgba(52, 58, 64, 1);
+  width: 319px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 35.20000076293945px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link03 {
+  top: 0px;
+  left: 760px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3864tipsstroombesparenwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_9qge_sqrco-qzlx-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-elektrischestoringen1 {
+  top: -158.74267578125px;
+  left: -52.503173828125px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg2 {
+  top: 0px;
+  left: 280px;
+  width: 40px;
+  height: 53px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat2 {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 210px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text089 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 170px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg2 {
+  top: 175.72000122070312px;
+  left: 278.20001220703125px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text091 {
+  top: 201.72000122070312px;
+  left: 278.20001220703125px;
+  color: rgba(255, 255, 255, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link04 {
+  top: 505.5899963378906px;
+  left: 479.45001220703125px;
+  width: 181px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(211, 230, 238, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text093 {
+  top: 1px;
+  left: 13px;
+  color: rgba(68, 68, 68, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section4 {
+  top: 3421.719970703125px;
+  left: 0px;
+  width: 1920px;
+  height: 242.3000030517578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1204 {
+  top: 35.20000076293945px;
+  left: 390px;
+  width: 665px;
+  height: 171.10000610351562px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text095 {
+  top: -0.800000011920929px;
+  left: 15px;
+  color: rgba(68, 68, 68, 1);
+  width: 550px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text097 {
+  top: 53.22999954223633px;
+  left: 15px;
+  color: rgba(68, 68, 68, 1);
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 25.600000381469727px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 30.719999313354492px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link05 {
+  top: 120.30000305175781px;
+  left: 15px;
+  width: 186px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(211, 230, 238, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text099 {
+  top: 1px;
+  left: 13px;
+  color: rgba(68, 68, 68, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-pictureimagemapbewebp {
+  top: -168.8427734375px;
+  left: 1070.496826171875px;
+  width: 578px;
+  height: 261px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_ndf7wi_ef3-2ixy-300h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section5 {
+  top: 3664.02001953125px;
+  left: 0px;
+  width: 1920px;
+  height: 675.1900024414062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer3 {
+  top: 80px;
+  left: 390px;
+  width: 1140px;
+  height: 515.1900024414062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1205 {
+  top: -0.800000011920929px;
+  left: 0px;
+  width: 1140px;
+  height: 93.0999984741211px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text101 {
+  top: -0.3427734375px;
+  left: 89.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 962px;
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 45.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text103 {
+  top: 53.6572265625px;
+  left: 314.496826171875px;
+  color: rgba(68, 68, 68, 1);
+  width: 513px;
+  height: auto;
+  position: absolute;
+  font-size: 25.5px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 30.719999313354492px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button {
+  top: 406.5899963378906px;
+  left: 541px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 30px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button1 {
+  top: 406.5899963378906px;
+  left: 565px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 30px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button2 {
+  top: 406.5899963378906px;
+  left: 589px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 30px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter2 {
+  top: 128.2899932861328px;
+  left: 15px;
+  width: 1110px;
+  height: 263.29998779296875px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link06 {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15148elektricienbrusselwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_ggrs-pscyz-4v4-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat3 {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 99px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text105 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link07 {
+  top: 0px;
+  left: 380px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15142elektricienantwerpenwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_3eh6mlgfsp-ra4q5-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat4 {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 123px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text107 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link08 {
+  top: 0px;
+  left: 760px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15151elektriciengentwebp {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 233.30999755859375px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_csnqocmfvp-hzyr-1500h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat5 {
+  top: 197.72000122070312px;
+  left: 40px;
+  width: 76px;
+  height: 35.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text109 {
+  top: 4.699999809265137px;
+  left: 20px;
+  color: rgba(52, 58, 64, 1);
+  width: 37px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-presentationowlnext {
+  top: 223.2899932861328px;
+  left: 1140px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(0, 145, 207, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg7 {
+  top: 14.460000038146973px;
+  left: 13px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link09 {
+  top: 465.17999267578125px;
+  left: 476.95001220703125px;
+  width: 186px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(211, 230, 238, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text111 {
+  top: 1px;
+  left: 13px;
+  color: rgba(68, 68, 68, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-section {
+  top: 4339.2001953125px;
+  left: 0px;
+  width: 1920px;
+  height: 126.52999877929688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 227, 85, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text113 {
+  top: 29.020000457763672px;
+  left: 405px;
+  color: rgba(255, 255, 255, 1);
+  width: 371px;
+  height: auto;
+  position: absolute;
+  font-size: 25.600000381469727px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 40.959999084472656px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text115 {
+  top: 70.63999938964844px;
+  left: 405px;
+  color: rgba(255, 255, 255, 1);
+  width: 438px;
+  height: auto;
+  position: absolute;
+  font-size: 15.875px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form1 {
+  top: 38.27000045776367px;
+  left: 880px;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10999999940395355) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.0020000000949949026);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spaninputgrouptext1 {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg8 {
+  top: 11px;
+  left: 12px;
+  width: 20px;
+  height: 28px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-input1 {
+  top: 0px;
+  left: 44px;
+  width: 306px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 1px 4px 4px 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divplaceholder1 {
+  top: 16px;
+  left: 27px;
+  width: 252px;
+  height: 18px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text117 {
+  color: rgba(108, 117, 125, 1);
+  width: 199px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form-button1 {
+  top: 38.27000045776367px;
+  left: 1260px;
+  width: 255px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(233, 187, 67, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text119 {
+  left: 40.130001068115234px;
+  color: rgba(255, 255, 255, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 50px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer {
+  top: 4501.72998046875px;
+  left: 390px;
+  width: 570px;
+  height: 227.88999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text121 {
+  top: -0.44999998807907104px;
+  left: 15px;
+  color: rgba(68, 68, 68, 1);
+  width: 252px;
+  height: auto;
+  position: absolute;
+  font-size: 21.828125px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 31.899999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol6 {
+  top: 47.900001525878906px;
+  left: 0px;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link10 {
+  top: 0px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text123 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link11 {
+  top: 36px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text125 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link12 {
+  top: 72px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text127 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 35px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link13 {
+  top: 108px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text129 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 52px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link14 {
+  top: 144px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text131 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol61 {
+  top: 47.900001525878906px;
+  left: 285px;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link15 {
+  top: 0px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text133 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link16 {
+  top: 36px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text135 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 36px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link17 {
+  top: 72px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text137 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link18 {
+  top: 108px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text139 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link19 {
+  top: 144px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text141 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 50px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer1 {
+  top: 4501.72998046875px;
+  left: 960px;
+  width: 570px;
+  height: 227.88999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text143 {
+  top: -0.44999998807907104px;
+  left: 15px;
+  color: rgba(68, 68, 68, 1);
+  width: 124px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 31.899999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcollg6 {
+  top: 47.900001525878906px;
+  left: 0px;
+  width: 285px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link20 {
+  top: 0px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text145 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 185px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link21 {
+  top: 36px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text147 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link22 {
+  top: 72px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text149 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link23 {
+  top: 108px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text151 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcollg61 {
+  top: 47.900001525878906px;
+  left: 285px;
+  width: 285px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link24 {
+  top: 0px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text153 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 32px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link25 {
+  top: 36px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text155 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 65px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link26 {
+  top: 72px;
+  left: 15px;
+  width: 255px;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text157 {
+  top: -0.5px;
+  color: rgba(0, 145, 207, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer-pictureimgheaderbglqwebp {
+  top: 4765.6298828125px;
+  left: 192px;
+  width: 1536px;
+  height: 515px;
+  display: flex;
+  opacity: 0.10;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_ggaej5und2-kk0q-600h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer2 {
+  top: 4765.6298828125px;
+  left: 390px;
+  width: 1140px;
+  height: 465px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-picturelogofooterwebp {
+  top: 36.2470703125px;
+  left: 119.496826171875px;
+  width: 372px;
+  height: 213px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("public/external/tq_iwjefilh7r-zyt-300h.png");
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1206 {
+  top: 82.79000091552734px;
+  left: 506.6600036621094px;
+  width: 443px;
+  height: 119.41000366210938px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text159 {
+  top: -0.54296875px;
+  left: 14.8367919921875px;
+  color: rgba(140, 10, 20, 1);
+  width: 301px;
+  height: auto;
+  position: absolute;
+  font-size: 25.600000381469727px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Zilla Slab;
+  font-weight: 600;
+  line-height: 30.719999313354492px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link27 {
+  top: 86.41000366210938px;
+  left: 15px;
+  width: 15px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilebluenewsvgfill1 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 16px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text163 {
+  top: 69.41000366210938px;
+  left: 40px;
+  color: rgba(0, 145, 207, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1207 {
+  top: 320.5px;
+  left: 190px;
+  width: 760px;
+  height: 36.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text165 {
+  top: -0.5px;
+  left: 134.55999755859375px;
+  color: rgba(0, 145, 207, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text167 {
+  top: -0.5px;
+  left: 273.30999755859375px;
+  color: rgba(0, 145, 207, 1);
+  width: 75px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text169 {
+  top: -0.5px;
+  left: 392.44000244140625px;
+  color: rgba(0, 145, 207, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text171 {
+  top: -0.5px;
+  left: 566.719970703125px;
+  color: rgba(0, 145, 207, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1208 {
+  top: 393px;
+  left: 190px;
+  width: 760px;
+  height: 72px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divstickymenu {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 164.63999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divnavbar {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 102.63999938964844px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10999999940395355) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divh100 {
+  top: 0px;
+  left: 15px;
+  width: 630px;
+  height: 102.63999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1209 {
+  top: 0px;
+  left: 644.97998046875px;
+  width: 630px;
+  height: 102.63999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divbgred100 {
+  top: 0px;
+  left: 35px;
+  width: 579px;
+  height: 102.63999938964844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(248, 249, 240, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-popenindicator {
+  top: 10px;
+  left: 174.66000366210938px;
+  width: 230px;
+  height: 23.049999237060547px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text173 {
+  top: -0.5199999809265137px;
+  left: 47.380001068115234px;
+  color: rgba(68, 68, 68, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 14.28749942779541px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 23.040000915527344px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spanindicator {
+  top: 8px;
+  left: 39.380001068115234px;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(102, 198, 104, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frameafter {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 144px;
+  background-color: rgba(102, 198, 104, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link28 {
+  top: 47.050048828125px;
+  left: 174.6600341796875px;
+  width: 230px;
+  height: 39.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 229, 94, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: rgba(255, 229, 94, 1);
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-framebefore {
+  top: 7px;
+  left: 13px;
+  width: 105px;
+  height: 25.59000015258789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilewhitenewsvgfill {
+  top: 0px;
+  left: 0px;
+  width: 105px;
+  height: 26px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text175 {
+  top: -0.004999999888241291px;
+  color: rgba(255, 255, 255, 1);
+  width: 73px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text177 {
+  top: 6.699999809265137px;
+  left: 117.91999816894531px;
+  color: rgba(255, 255, 255, 1);
+  width: 99px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 25.600000381469727px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-nav {
+  top: 102.63999938964844px;
+  left: 0px;
+  width: 1920px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(222, 226, 230, 1);
+  border-style: solid;
+  border-width: 1px 0;
+  justify-content: flex-start;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item-link-svg {
+  top: 21px;
+  left: 387.6300048828125px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text179 {
+  top: 19.600000381469727px;
+  left: 417.6300048828125px;
+  color: rgba(52, 58, 64, 1);
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item {
+  top: 16px;
+  left: 485.5299987792969px;
+  width: 204px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text181 {
+  top: 5.2371826171875px;
+  left: 14.966796875px;
+  color: rgba(52, 58, 64, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg {
+  top: 12.34000015258789px;
+  left: 161.05999755859375px;
+  width: 13px;
+  height: 7px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item1 {
+  top: 16px;
+  left: 689.5900268554688px;
+  width: 217px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-buttonelektriciensvg {
+  top: 5.2371826171875px;
+  left: 17.90673828125px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text183 {
+  top: 3.2371826171875px;
+  left: 33.90673828125px;
+  color: rgba(52, 58, 64, 1);
+  width: 141px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 14px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg1 {
+  top: 12.34000015258789px;
+  left: 174.27000427246094px;
+  width: 13px;
+  height: 7px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item2 {
+  top: 16px;
+  left: 906.8599853515625px;
+  width: 240px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg2 {
+  top: 5px;
+  left: 31px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text187 {
+  top: 3.5999999046325684px;
+  left: 61px;
+  color: rgba(52, 58, 64, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg3 {
+  top: 12.34000015258789px;
+  left: 196.55999755859375px;
+  width: 13px;
+  height: 7px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item3 {
+  top: 16.2371826171875px;
+  left: 1447.496826171875px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-svg {
+  top: 5px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text189 {
+  top: 3.5999999046325684px;
+  left: 60px;
+  color: rgba(52, 58, 64, 1);
+  width: 31px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item4 {
+  top: 16.2371826171875px;
+  left: 1146.496826171875px;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-svg1 {
+  top: 5px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text191 {
+  top: 3.5999999046325684px;
+  left: 60px;
+  color: rgba(52, 58, 64, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item5 {
+  top: 16.2371826171875px;
+  left: 1296.496826171875px;
+  width: 136px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 227, 1);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg4 {
+  top: 5px;
+  left: 31px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text193 {
+  top: 3.5999999046325684px;
+  left: 61px;
+  color: rgba(52, 58, 64, 1);
+  width: 52px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 700;
+  line-height: 22.399999618530273px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg5 {
+  top: 12.34000015258789px;
+  left: 122.12999725341797px;
+  width: 13px;
+  height: 7px;
+  position: absolute;
+}

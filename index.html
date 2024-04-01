@@ -27,6 +27,40 @@
 
       }
     </style>
+    <script>
+      window.onresize = () => {
+        console.log(window.innerWidth)
+        if(window.innerWidth < 1550)
+        {
+          document.body.style.zoom = 0.8
+        }
+        if(window.innerWidth < 1260)
+        {
+          document.body.style.zoom = 0.7
+        }
+        if(window.innerWidth < 1100)
+        {
+          document.body.style.zoom = 0.65
+        }
+        if(window.innerWidth < 1000)
+        {
+          document.body.style.zoom = 0.6
+        }
+        if(window.innerWidth < 930)
+        {
+          document.body.style.zoom = 0.5
+        }
+        if(window.innerWidth < 780)
+        {
+          document.body.style.zoom = 0.45
+        }
+        if(window.innerWidth < 730)
+        {
+          console.log('mobile')
+          document.body.style.zoom = 0.45
+        }
+      }
+    </script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/animate.css@4.1.1/animate.css"
@@ -1209,7 +1243,7 @@
               <span
                 class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text179"
               >
-                <span>Home</span>
+              <span onclick="location.href = '/' ">Home</span>
               </span>
               <div
                 class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item"
@@ -1221,9 +1255,9 @@
                 >
                   <span>24/7 elektrische nooddienst</span>
                   <div id="1dropdown" style="width: 170px; height: 110px; margin-top: 10px; background-color: #f0f6f9; border: solid lightgrey 2px; display: none;">
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Kortsluiting</h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomonderbreking of elektriciteitspanne</h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomstoring / uitval </h1>
+                    <h1 onclick="location.href = '/1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Kortsluiting</h1>
+                    <h1 onclick="location.href = '/1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomonderbreking of elektriciteitspanne</h1>
+                    <h1 onclick="location.href = '/1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomstoring / uitval </h1>
                   </div>
                 </span>
                 <img
@@ -1249,13 +1283,13 @@
                   <br />
                   <span>Elektriciteitswerken</span>
                   <div id="2dropdown" style="width: 170px; height: 205px; margin-top: 10px; background-color: #f0f6f9; border: solid lightgrey 2px; display: none;">
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Algemeen</h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Conformen/Arei</h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Elektriciteit aanleggen </h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Industrile elektriciteitswerken</h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stopcontacten </h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zekeringkast </h1>
-                    <h1 style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zonnepannelen </h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Algemeen</h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Conformen/Arei</h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Elektriciteit aanleggen </h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Industrile elektriciteitswerken</h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stopcontacten </h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zekeringkast </h1>
+                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zonnepannelen </h1>
                     
                   </div>
                 </span>
@@ -1321,7 +1355,7 @@
                 <span
                   class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text189"
                 >
-                  <span>Blog</span>
+                  <span onclick="location.href = '/Blog.html' ">Blog</span>
                 </span>
               </div>
               <div
@@ -1335,7 +1369,7 @@
                 <span
                   class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text191"
                 >
-                  <span>Over ons</span>
+                  <span onclick="location.href = '/OverOns.html' ">Over ons</span>
                 </span>
               </div>
               <div
@@ -1349,7 +1383,7 @@
                 <span
                   class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text193"
                 >
-                  <span>Contact</span>
+                  <span onclick="location.href = '/Contact.html' ">Contact</span>
                 </span>
                 <img
                   src="public/external/buttonsvg5366-in97.svg"

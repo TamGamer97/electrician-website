@@ -1,1368 +1,3394 @@
 <!DOCTYPE html>
-<html lang="english">
-  <head>
-    <title>exported project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-        overflow: hidden;
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-    <style>
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
-
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
-    </style>
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div
-        class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-container"
-      >
-        <div
-          class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103"
-        >
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-header" style="display: none;"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divheaderbg"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-pictureimgheaderbglqwebp"
-              >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">
+          <div class="div-3">
+            <div class="div-4">
+              <div class="div-5">
+                <div class="div-6">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2b864b5ee9f47db5da966e8b801cb4dc1a3e70ce8d23209cc417b6a9240f409?placeholderIfAbsent=true"
+                    class="img"
+                  />
+                  <div class="div-7">
+                    <template data-el="div-1"><!-- " " --></template>
+      
+                    We zijn nu bereikbaar
+                  </div>
+                </div>
+                <div class="div-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6aab59e83cba7cd23dc8927c4166d65cc14565cca640dc836ef98110b168c01?placeholderIfAbsent=true"
+                    class="img-2"
+                  />
+                  <div class="div-9">078 - 487 825</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-10">
+            <div class="div-11">
+              <div class="div-12">
                 <img
-                  src="public/external/bg37370-hm8-1100h.png"
-                  alt="bg37370"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-bg3"
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/a716231bdc68a6d5e94cf81b61402f2e8b2b3d9e678413ac55076020bdeedb16?placeholderIfAbsent=true"
+                  class="img-3"
                 />
+                <div class="div-13"  class="menuItemTxt" style="cursor: pointer;" onclick="location.href = '/' " >Home</div>
               </div>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol12"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text"
-                >
-                  <span>
-                    Elektrische problemen of storingen, vind nu de elektricien
-                    voor uw regio
-                  </span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form"
-              >
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spaninputgrouptext"
-                >
-                  <img
-                    src="public/external/svg528-m8l6.svg"
-                    alt="SVG528"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg"
-                  />
-                </div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-input"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divplaceholder"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text002"
-                    >
-                      <span>Vul uw plaats of postcode in</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form-button"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text004"
-                >
-                  <span>Vind mijn elektricien</span>
-                </span>
-              </button>
-            </div>
-            <div
-              data-thq="thq-dropdown"
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-thq-dropdown list-item"
-            >
-              <ul
-                data-thq="thq-dropdown-list"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-list"
-              >
-                <li
-                  data-thq="thq-dropdown"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown list-item"
-                >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text006"
-                    >
-                      Sub-menu Item
-                    </span>
-                  </div>
-                </li>
-                <li
-                  data-thq="thq-dropdown"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown1 list-item"
-                >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle1"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text007"
-                    >
-                      Sub-menu Item
-                    </span>
-                  </div>
-                </li>
-                <li
-                  data-thq="thq-dropdown"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown2 list-item"
-                >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-dropdown-toggle2"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text008"
-                    >
-                      Sub-menu Item
-                    </span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section" style="position: absolute; top: 150px;"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1201"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text009"
-              >
-                <span>Over Ons</span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text011"
-              >
-                <span>
-                  Wij vertegenwoordigen een netwerk van ervaren elektriciens die
-                  gespecialiseerd zijn in het aanleggen, monteren en onderhouden
-                  van elektrische systemen in Vlaanderen. Met één belletje of
-                  e-mail komt u rechtstreeks in contact met een elektricien in
-                  uw regio. Wat uw elektriciteitsprobleem ook is, wij bieden
-                  snel en vakkundig hulp. Of het nu gaat om het installeren van
-                  complete elektrische systemen, het monteren van bekabeling of
-                  het uitvoeren van jaarlijks onderhoud, wij staan voor u klaar.
-                  Onze diensten zijn betaalbaar en efficient. Maak vandaag nog
-                  een afspraak!
-                </span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text013"
-              >
-                <span>Meer weten? →</span>
-              </span>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divshadowfull"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text015"
-              >
-                <span>Snel van uw stroomprobleem af?</span>
-              </span>
-              <img
-                src="public/external/svg544-hobr.svg"
-                alt="SVG544"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg1"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text017"
-              >
-                <span>24/7 bereikbaar bij nood</span>
-              </span>
-              <img
-                src="public/external/svg548-js3.svg"
-                alt="SVG548"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg2"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text019"
-              >
-                <span>Elektriciens voor uw regio</span>
-              </span>
-              <img
-                src="public/external/svg552-skjp.svg"
-                alt="SVG552"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg3"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text021"
-              >
-                <span>In Vlaanderen</span>
-              </span>
-              <img
-                src="public/external/svg556-lqih.svg"
-                alt="SVG556"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg4"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text023"
-              >
-                <span>Pinnen is mogelijk</span>
-              </span>
-              <img
-                src="public/external/svg560-f8fk.svg"
-                alt="SVG560"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg5"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text025"
-              >
-                <span>Particulier en zakelijk</span>
-              </span>
-              <img
-                src="public/external/svg564-jjhk.svg"
-                alt="SVG564"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg6"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text027"
-              >
-                <span>Hoge klanttevredenheid</span>
-              </span>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link"
-              >
-                <img
-                  src="public/external/iconmobilebluenewsvgfill569-wzi.svg"
-                  alt="iconmobilebluenewsvgfill569"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilebluenewsvgfill"
-                />
-              </div>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text029"
-              >
-                <span>+32 456 81 76 56</span>
-              </span>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section1"
-          >
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text031"
-            >
-              <span>
-                Onze deskundige elektriciens zijn beschikbaar om u te
-                helpen. Wij bieden altijd een betrouwbare en veilige oplossing
-                voor uw elektriciteitsproblemen.
-              </span>
-            </span>
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text033"
-            >
-              <span>
-                24/7 beschikbaar en bieden spoedservice indien nodig. Onze
-                ervaren elektriciens hebben uitgebreide expertise in het
-                oplossen van elektrische problemen en het installeren van nieuwe
-                systemen.
-              </span>
-            </span>
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text035"
-            >
-              <span></span>
-              <br />
-              <span>
-                Ook voor onderhoud of elektrische installatie bent u hier aan
-                het juiste adres. Onze elektriciens werken snel, doelgericht,
-                nauwkeurig en veilig. U bent dus binnen de kortste keren
-                geholpen. Pak dus nu de telefoon en neem direct contact met ons
-                op.
-              </span>
-            </span>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section2"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer1"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1202"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text039"
-                >
-                  <span>Wat is onze werkwijze?</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text041"
-                >
-                  <span>Snel, efficiënt en vakkundig</span>
-                </span>
-              </div>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text043"
-              >
-                <span>
-                  Aan de hand van deze 4 stappen bent u snel van uw
-                  stroomprobleem af!
-                </span>
-              </span>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter"
-              >
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4302imgwerkwijze1webp"
-                ></div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep"
-                >
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text045"
-                  >
-                    1
-                  </span>
-                </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text046"
-                >
-                  <span>Elektriciteietsprobleem ?</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text048"
-                >
-                  <span>
-                    Bel ons meteen, onze spoed elektriciens staan paraat of maak
-                    een afspraak
-                  </span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4305imgwerkwijze2webp"
-                ></div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep1"
-                >
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text050"
-                  >
-                    2
-                  </span>
-                </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text051"
-                >
-                  <span>De elektricien komt eraan</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text053"
-                >
-                  <span>
-                    Hna een grondige analyse bespreekt hij de problemen en hoe
-                    ze te herstellen zijn
-                  </span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4308imgwerkwijze3webp"
-                ></div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep2"
-                >
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text055"
-                  >
-                    3
-                  </span>
-                </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text056"
-                >
-                  <span>Stroom probleem opgelost</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text058"
-                >
-                  <span>
-                    de elektricien zorgt voor stroceen vlotte herstelling zodat
-                    i je weer verder kan !
-                  </span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-picture4311imgwerkwijze4webp"
-                ></div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divmethodstep3"
-                >
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text060"
-                  >
-                    4
-                  </span>
-                </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text061"
-                >
-                  <span>Overzicht en Analyse</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text063"
-                >
-                  <span>
-                    Overzicht en Analyse Je krijgt een woordje uitleg hoe je in
-                    de toekomst dit probleem kan voorkomen of wat er nog moet
-                    gebeuren.
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section3"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer2"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1203"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text065"
-                >
-                  <span>Blog Stroomproblemen</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text067"
-                >
-                  <span>
-                     Wat doen we allemaal, wat voor problemen bestaan er
-                  </span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter1"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text069"
-                >
-                  <span>30 sep 2020 • redactie</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text071"
-                >
-                  <span>•Zekeringkast vervangen / vernieuwen</span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link01"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3870stoppenkastwebp"
-                  ></div>
-                  <img
-                    src="public/external/iconblogribbonsvg5117-d8r6.svg"
-                    alt="iconblogribbonsvg5117"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg"
-                  />
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text073"
-                    >
-                      <span>Groepenkast vervangen/installeren</span>
-                    </span>
+              <div class="div-14" >
+                <div class="div-15"  onclick="{if(document.getElementById('menu1').style.display == 'block') {document.getElementById('menu1').style.display = 'none'}else{document.getElementById('menu1').style.display = 'block'};}" style="outline: none; border: none; cursor: pointer;">
+                  <div class="div-16" style="margin-top: 10px;" >24/7 elektrische nooddienst</div>
+                  <div id="menu1" style="width: 250px; height: 150px; position: absolute; margin-top: 46px; background-color: #f0f6f9; border: solid 1px #343a40; display: none;" >
+                    <h1 class="menuItemTxt" onclick="location.href='/Kortsluting.html' " style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Kortsluting</h1>
+                    <h1 class="menuItemTxt" onclick="location.href='/Stroomonderbreking.html' " style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Stroomonderbreking of elektriciteitspanne</h1>
+                    <h1 class="menuItemTxt" onclick="location.href='/Stroomstoring.html'" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Stroomstoring / uitval</h1>
                   </div>
                   <img
-                    src="public/external/iconreadtimesvg5123-tvr.svg"
-                    alt="iconreadtimesvg5123"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg"
-                  />
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text075"
-                  >
-                    <span>5 min</span>
-                  </span>
-                  <img
-                    src="public/external/zekeringkast17371-z97a-400h.png"
-                    alt="zekeringkast17371"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-zekeringkast1"
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/04587433d8078036ce678e470ba2d1a5ea29de2f4a5a837d93ac69d4dac88f27?placeholderIfAbsent=true"
+                    class="img-4"
                   />
                 </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text077"
-                >
-                  <span>30 sep 2020 • redactie</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text079"
-                >
-                  <span>Advies over vernieuwen elektriciteit</span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link02"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3867elektrarenoverenwebp"
-                  >
+                <div class="div-17" onclick="{if(document.getElementById('menu2').style.display == 'block') {document.getElementById('menu2').style.display = 'none'}else{document.getElementById('menu2').style.display = 'block'};}" style="outline: none; border: none; cursor: pointer;">
+                  <div class="div-18" >
                     <img
-                      src="public/external/kabelsstopcontact17371-exuw-500h.png"
-                      alt="kabelsstopcontact17371"
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-kabelsstopcontact1"
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f89627721af97dc344374467f9b66f478549331cc6e2bb2279e0ea1a301cc8fe?placeholderIfAbsent=true"
+                      class="img-5"
                     />
-                  </div>
-                  <img
-                    src="public/external/iconblogribbonsvg5134-2dcj.svg"
-                    alt="iconblogribbonsvg5134"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg1"
-                  />
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat1"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text081"
-                    >
-                      <span>Elektriciteit aanleggen</span>
-                    </span>
-                  </div>
-                  <img
-                    src="public/external/iconreadtimesvg5140-w439.svg"
-                    alt="iconreadtimesvg5140"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg1"
-                  />
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text083"
-                  >
-                    <span>3 min</span>
-                  </span>
-                </div>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text085"
-                >
-                  <span>30 sep 2020 • redactie</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text087"
-                >
-                  <span>Zonnepannelen</span>
-                </span>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link03"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame3864tipsstroombesparenwebp"
-                  >
-                    <img
-                      src="public/external/elektrischestoringen17371-468j-500h.png"
-                      alt="elektrischestoringen17371"
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-elektrischestoringen1"
-                    />
-                  </div>
-                  <img
-                    src="public/external/iconblogribbonsvg5151-nytu.svg"
-                    alt="iconblogribbonsvg5151"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconblogribbonsvg2"
-                  />
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat2"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text089"
-                    >
-                      <span>Elektriciteit aanleggen</span>
-                    </span>
-                  </div>
-                  <img
-                    src="public/external/iconreadtimesvg5157-bfz.svg"
-                    alt="iconreadtimesvg5157"
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconreadtimesvg2"
-                  />
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text091"
-                  >
-                    <span>3 min</span>
-                  </span>
-                </div>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link04"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text093"
-                >
-                  <span>Lees alle artikelen</span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section4"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1204"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text095"
-              >
-                <span>Vind de elektricien voor uw regio</span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text097"
-              >
-                <span>Onze elektriciens zijn actief in Vlaanderen</span>
-              </span>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link05"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text099"
-                >
-                  <span>Bekijk alle locaties</span>
-                </span>
-              </div>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-pictureimagemapbewebp"
-            ></div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-main-section5"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcontainer3"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1205"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text101"
-                >
-                  <span>Gekwalificeerde elektriciens voor uw REGIO</span>
-                </span>
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text103"
-                >
-                  <span>Wij staan voor u klaar in heel Vlaanderen</span>
-                </span>
-              </div>
-              <img
-                src="public/external/button5178-y82i-200h.png"
-                alt="Button5178"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button"
-              />
-              <img
-                src="public/external/button5179-ocj-200h.png"
-                alt="Button5179"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button1"
-              />
-              <img
-                src="public/external/button5180-syx-200h.png"
-                alt="Button5180"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button2"
-              />
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divowlstageouter2"
-              >
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link06"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15148elektricienbrusselwebp"
-                  ></div>
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat3"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text105"
-                    >
-                      <span>Brussel</span>
-                    </span>
-                  </div>
-                </div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link07"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15142elektricienantwerpenwebp"
-                  ></div>
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat4"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text107"
-                    >
-                      <span>Antwerpen</span>
-                    </span>
-                  </div>
-                </div>
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link08"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frame15151elektriciengentwebp"
-                  ></div>
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divblogcat5"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text109"
-                    >
-                      <span>Gent</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-presentationowlnext"
-              >
-                <img
-                  src="public/external/svg5195-g6dd.svg"
-                  alt="SVG5195"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg7"
-                />
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link09"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text111"
-                >
-                  <span>Bekijk alle locaties</span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-section"
-          >
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text113"
-            >
-              <span>Zoek de elektricien voor uw regio</span>
-            </span>
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text115"
-            >
-              <span>
-                Vul uw plaats of postcode in en vind de vakman voor uw regio
-              </span>
-            </span>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form1"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spaninputgrouptext1"
-              >
-                <img
-                  src="public/external/svg5206-hb4r.svg"
-                  alt="SVG5206"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-svg8"
-                />
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-input1"
-              >
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divplaceholder1"
-                >
-                  <span
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text117"
-                  >
-                    <span>Vul uw plaats of postcode in</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <button
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-form-button1"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text119"
-              >
-                <span>Vind mijn elektricien</span>
-              </span>
-            </button>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer"
-          >
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text121"
-            >
-              <span>Vind een specialist voor</span>
-            </span>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol6"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link10"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text123"
-                >
-                  <span>Brussel</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link11"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text125"
-                >
-                  <span>Antwerpen</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link12"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text127"
-                >
-                  <span>Gent</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link13"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text129"
-                >
-                  <span>Brugge</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link14"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text131"
-                >
-                  <span>Leuven</span>
-                </span>
-              </div>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol61"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link15"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text133"
-                >
-                  <span>Mechelen</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link16"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text135"
-                >
-                  <span>Aalst</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link17"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text137"
-                >
-                  <span>Hasselt</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link18"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text139"
-                >
-                  <span>Sint-Niklaas</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link19"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text141"
-                >
-                  <span>Kortrijk</span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer1"
-          >
-            <span
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text143"
-            >
-              <span>Bekijk meer</span>
-            </span>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcollg6"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link20"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text145"
-                >
-                  <span>Contact met de elektricien</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link21"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text147"
-                >
-                  <span>Aanmelden als elektricien</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link22"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text149"
-                >
-                  <span>Veelgestelde vragen</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link23"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text151"
-                >
-                  <span>Offerte en afspraak</span>
-                </span>
-              </div>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcollg61"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link24"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text153"
-                >
-                  <span>Blog</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link25"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text155"
-                >
-                  <span>Over ons</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link26"
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text157"
-                >
-                  <span>Klantenservice</span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer-pictureimgheaderbglqwebp"
-          ></div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-footer2"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-picturelogofooterwebp"
-            ></div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1206"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text159"
-              >
-                <span>In een mum van tijd uw</span>
-                <br />
-                <span>stroomprobleem opgelost</span>
-              </span>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link27"
-              >
-                <img
-                  src="public/external/iconmobilebluenewsvgfill5262-loq8.svg"
-                  alt="iconmobilebluenewsvgfill5262"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilebluenewsvgfill1"
-                />
-              </div>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text163"
-              >
-                <span>+32 456 81 76 56</span>
-              </span>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1207"
-            >
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text165"
-              >
-                <span>Voorwaarden</span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text167"
-              >
-                <span>Disclaimer</span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text169"
-              >
-                <span>Privacy &amp; Cookies</span>
-              </span>
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text171"
-              >
-                <span>Sitemap</span>
-              </span>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1208"
-            ></div>
-          </div>
-          <div
-            class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divstickymenu"
-          >
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divnavbar"
-            >
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divh100"
-              ></div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divcol1209"
-              >
-                <div
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-divbgred100"
-                >
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-popenindicator"
-                  >
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text173"
-                    >
-                      <span>We zijn nu bereikbaar</span>
-                    </span>
-                    <div
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-spanindicator"
-                    >
-                      <div
-                        class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-frameafter"
-                      ></div>
+                    <div class="div-19" >
+                      Algemene
+      
+                      <br />
+      
+                      Elektriciteitswerken
                     </div>
-                  </div>
-                  <div
-                    class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link28"
-                  >
-                    <div
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-framebefore"
-                    >
-                      <img
-                        src="public/external/iconmobilewhitenewsvgfill5360-wp3.svg"
-                        alt="iconmobilewhitenewsvgfill5360"
-                        class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-iconmobilewhitenewsvgfill"
-                      />
-                      <span
-                        class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text175"
-                      >
-                        <span>Bel direct</span>
-                      </span>
-                    </div>
-                    <span
-                      class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text177"
-                    >
-                      <span>078 - 487 825</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-nav"
-            >
-              <img
-                src="public/external/listitemlinksvg5361-awck.svg"
-                alt="ListItemLinkSVG5361"
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item-link-svg"
-              />
-              <span
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text179"
-              >
-              <span onclick="location.href = '/' ">Home</span>
-              </span>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item"
-                onmouseenter=" document.getElementById('1dropdown').style.display = 'block' "
-                onmouseleave=" document.getElementById('1dropdown').style.display = 'none' "
-              >
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text181"
-                >
-                  <span>24/7 elektrische nooddienst</span>
-                  <div id="1dropdown" style="width: 170px; height: 110px; margin-top: 10px; background-color: #f0f6f9; border: solid lightgrey 2px; display: none;">
-                    <h1 onclick="location.href = '1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Kortsluiting</h1>
-                    <h1 onclick="location.href = '/1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomonderbreking of elektriciteitspanne</h1>
-                    <h1 onclick="location.href = '/1dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stroomstoring / uitval </h1>
-                  </div>
-                </span>
-                <img
-                  src="public/external/buttonsvg5361-y6b4.svg"
-                  alt="ButtonSVG5361"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg"
-                />
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item1"
-                onmouseenter=" document.getElementById('2dropdown').style.display = 'block' "
-                onmouseleave=" document.getElementById('2dropdown').style.display = 'none' "
-              >
-                <img
-                  src="public/external/buttonelektriciensvg5362-eux6.svg"
-                  alt="Buttonelektriciensvg5362"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-buttonelektriciensvg"
-                />
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text183"
-                >
-                  <span>Algemene</span>
-                  <br />
-                  <span>Elektriciteitswerken</span>
-                  <div id="2dropdown" style="width: 170px; height: 205px; margin-top: 10px; background-color: #f0f6f9; border: solid lightgrey 2px; display: none;">
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Algemeen</h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Conformen/Arei</h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Elektriciteit aanleggen </h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Industrile elektriciteitswerken</h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Stopcontacten </h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zekeringkast </h1>
-                    <h1 onclick="location.href = '/2dropdown.html' " style="font-size: 15px; margin-top: 10px; cursor: pointer;">Zonnepannelen </h1>
-                    
-                  </div>
-                </span>
-                <img
-                  src="public/external/buttonsvg5363-03t5.svg"
-                  alt="ButtonSVG5363"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg1"
-                />
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item2"
-                onmouseenter=" document.getElementById('3dropdown').style.display = 'block' "
-                onmouseleave=" document.getElementById('3dropdown').style.display = 'none' "
-              >
-                <img
-                  src="public/external/buttonsvg5364-myex.svg"
-                  alt="ButtonSVG5364"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg2"
-                />
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text187"
-                >
-                  <span>Vind uw elektricien</span>
-                  <div id="3dropdown" style="width: 550px; height: 210px; margin-top: 10px; background-color: #f0f6f9; border: solid lightgrey 2px; display: none;">
-                    
-                    <div style="display: flex; justify-content: center; width: 170px;">
-                      <div style="width: 90%; background-color: rgb(235, 235, 235); position: relative; margin-top: 10px;">
-                        <h1 style="font-size: 15px; cursor: pointer;">Vul hier je plaats in</h1>
+                    <div id="menu2" style="width: 250px; height: 250px; position: absolute; margin-top: 46px; background-color: #f0f6f9; border: solid 1px #343a40; z-index: 100; display: none;" >
+                        <h1 onclick="location.href='/Algemeed.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Algemeed</h1>
+                        <h1 onclick="location.href='/Conformen.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Conformen / AREI</h1>
+                        <h1 onclick="location.href='/Elektriciteit.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Elektriciteit aanleggen</h1>
+                        <h1 onclick="location.href='/Industriele.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Industriele elektriciteitswerken</h1>
+                        <h1 onclick="location.href='/Stopcontacten.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Stopcontacten</h1>
+                        <h1 onclick="location.href='/Zekeringkast.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Zekeringkast</h1>
+                        <h1 onclick="location.href='/Zonnepannelen.html' " class="menuItemTxt" style="font-family: sans-serif; font-size: 15px; margin-top: 20px;">Zonnepannelen</h1>
                       </div>
-                    </div>
-
-                    <img src="/vlaanderen.png" style="width: 150px; margin-left: 15px; margin-top: 30px; object-fit: cover;">
-
-                    <div style="width: 300px; margin-top: 20px; position: absolute; top: 40px; left: 200px; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Brussel</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Leuven</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Nieukerken-Waas</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Antwerpen</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Sint Jans Molenbeek</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Sint Niklaas</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Gent</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Blankenbergen</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Oostende</h1>
-                      <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd">Zwijndrecht</h1>
-                    </div>
-
+                  </div >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/876acd394d6ac9ab3209f40be143040c095fb9f66cc9880bd72f0a09d7d00343?placeholderIfAbsent=true"
+                    class="img-6"
+                  />
+                </div>
+                <div class="div-20" onclick="{if(document.getElementById('menu3').style.display == 'block') {document.getElementById('menu3').style.display = 'none'}else{document.getElementById('menu3').style.display = 'block'};}" style="outline: none; border: none; cursor: pointer;">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/7474378b47b734fb7595f260ad7657765570efd3f2224a5a04ed7b6e8dca2806?placeholderIfAbsent=true"
+                    class="img-7"
+                  />
+                  <div class="div-21">Vind uw elektricien</div>
+                  <div id="menu3" style="width: 650px; height: 250px; position: absolute; margin-top: 306px; background-color: #f0f6f9; border: solid 1px #343a40; z-index: 100; display: none;" >
+                    <div style="display: flex; justify-content: center; width: 170px;">
+                        <div style="width: 93%; background-color: whitesmoke; border: 1px solid black; position: relative; margin-top: 10px; margin-left: 20px;">
+                          <h1 style="font-size: 15px; cursor: pointer; font-family: sans-serif;">Vul hier je plaats in</h1>
+                        </div>
+                      </div>
+  
+                      <img src="/vlaanderen.png" style="width: 150px; position: absolute; left: 20px; object-fit: cover;">
+  
+                      <div style="width: 300px; margin-top: 20px; position: absolute; top: -10px; left: 200px; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Brussel</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Leuven</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Nieukerken-Waas</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Antwerpen</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Sint Jans Molenbeek</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Sint Niklaas</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Gent</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Blankenbergen</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Oostende</h1>
+                        <h1 style="font-size: 15px; cursor: pointer; color: #4ab0dd; font-family: sans-serif;">Zwijndrecht</h1>
+                      </div>
                   </div>
-                </span>
-                <img
-                  src="public/external/buttonsvg5364-9q3u.svg"
-                  alt="ButtonSVG5364"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg3"
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c6cfb8fdd804d4f27d53e2a8c838c2fc37beaf9795e68bcfc727a3cef5e75d3?placeholderIfAbsent=true"
+                    class="img-8"
+                  />
+                </div>
+                <div class="div-22" onclick="location.href='/OverOns.html' " class="menuItemTxt" style="outline: none; border: none; cursor: pointer;">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/98fde74110ce84ead4ce5c33ee88d5d4e2ba40a42ce1d1482ebaee3b2e72f41d?placeholderIfAbsent=true"
+                    class="img-9"
+                  />
+                  <div class="div-23" >Over ons</div>
+                </div>
+                <img style="outline: none; border: none;  cursor: pointer;"
+                  loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce0a9e806edee15ecda5dce7307ca40438098a6c3fa8ae5a9145ff3e481175bd?placeholderIfAbsent=true"
+                  class="img-10"
+                  onclick="location.href='/Contact.html' " class="menuItemTxt"
                 />
               </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item3"
-              >
+              <div class="div-24" style="outline: none; border: none; cursor: pointer;" onclick="location.href='/Blog.html' " class="menuItemTxt">
                 <img
-                  src="public/external/linksvg5364-n34e.svg"
-                  alt="LinkSVG5364"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-svg"
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba7b7112aca2421985f88aba79b7b6094dab26c1a58e995aaa621399587a82eb?placeholderIfAbsent=true"
+                  class="img-11"
+                  
                 />
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text189"
-                >
-                  <span onclick="location.href = '/Blog.html' ">Blog</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item4"
-              >
-                <img
-                  src="public/external/linksvg5365-qucd.svg"
-                  alt="LinkSVG5365"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-link-svg1"
-                />
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text191"
-                >
-                  <span>Over ons</span>
-                </span>
-              </div>
-              <div
-                class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-list-item5"
-              >
-                <img
-                  src="public/external/buttonsvg5366-m1f.svg"
-                  alt="ButtonSVG5366"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg4"
-                />
-                <span
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-text193"
-                >
-                  <span onclick="location.href = '/Contact.html'">Contact</span>
-                </span>
-                <img
-                  src="public/external/buttonsvg5366-in97.svg"
-                  alt="ButtonSVG5366"
-                  class="stroomprobleemkwijtbebyhtmltodesign-fre-eversion3103-button-svg5"
-                />
+                <div class="div-25">Blog</div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </body>
+        <div class="div-26">
+          <div class="div-27">
+            <div class="div-28" style="font-size: 35px; position: absolute; left: 10%; width: 100%;">
+                <h1 style="position: absolute; left: 0px;">
+                    Over Ons
+                </h1>
+              <h1 style="font-size: 20px; position: absolute; margin-top: 150px; left: 0px; background-color: red; width: 650px; height: 0px; line-height: 20px; text-align: start; font-weight: 100; width: 80%; max-width: 830px; background-color: green;">
+                Last van kortsluiting in uw huis of bedrijf? Dat is erg vervelend. Kortsluiting is namelijk niet alleen hinderlijk omdat u nu geen stroom meer heeft, het zorgt vaak ook voor flinke schade. Denk bijvoorbeeld aan brandschade door kortsluiting in uw waterkoker. U wilt dit probleem dan ook zo snel mogelijk opsporen en oplossen, maar hoe?
+              </h1>
+            </div>
+            <div class="div-29">
+              <div class="div-30">
+                <img
+                  loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7bb330635b5a7ada7d643e391d00ade3f72abd0e57eed394b19de4f4db20371a?placeholderIfAbsent=true"
+                  class="img-13"
+                  style="opacity: 0;"
+                />
+                <div class="div-31" style="display: none;" >
+                  <div class="div-32" >
+                    <div class="div-33" style="width: 230px;">Vul uw plaats of postcode in</div>
+                  </div>
+                  <div class="div-34" style="height: 20px; padding-left: 0px; padding-right: 0px; flex-grow: 0; width: 250px; margin-right: 30px;" >Vind mijn elektricien</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-35" >
+          <div class="div-36" data-el="div-2">
+            <div class="div-37">
+              <div class="column">
+                <div class="div-38">
+                  <div class="div-39">Professionele elektriciens in Vlaanderen</div>
+                  <div class="div-40">
+                    Wij vertegenwoordigen een netwerk van ervaren elektriciens die
+                    gespecialiseerd zijn in het aanleggen, monteren en onderhouden van
+                    elektrische systemen in Vlaanderen. Met één belletje of e-mail
+                    komt u rechtstreeks in contact met een elektricien in uw regio.
+                    Wat uw elektriciteitsprobleem ook is, wij bieden snel en vakkundig
+                    hulp. Of het nu gaat om het installeren van complete elektrische
+                    systemen, het monteren van bekabeling of het uitvoeren van
+                    jaarlijks onderhoud, wij staan voor u klaar. Onze diensten zijn
+                    betaalbaar en efficient. Maak vandaag nog een afspraak!
+                  </div>
+                  <div class="div-41">Meer weten? →</div>
+                </div>
+              </div>
+              <div class="column-2">
+                <div class="div-42">
+                  <div class="div-43">Snel van uw stroomprobleem af?</div>
+                  <div class="div-44">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a7cab9bcd0429a193b2bde0d6d17357d14f6c908d5e2f42d2a839aa568262c8?placeholderIfAbsent=true"
+                      class="img-14"
+                    />
+                    <div class="div-45">24/7 bereikbaar bij nood</div>
+                  </div>
+                  <div class="div-46">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec77629560e6f8e93dc5135b52c75708a997badb8b487c3036a7391ac294823b?placeholderIfAbsent=true"
+                      class="img-15"
+                    />
+                    <div class="div-47">Elektriciens voor uw regio</div>
+                  </div>
+                  <div class="div-48">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8484437bafbf386b1b0d2bca1264456b03c8553d7d814c650d803b9d86dfaa25?placeholderIfAbsent=true"
+                      class="img-16"
+                    />
+                    <div class="div-49">In Vlaanderen</div>
+                  </div>
+                  <div class="div-50">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f69f67e091dda06f0c00be6706f5fcffc9614e170faa1350d5a45059c7fbdda?placeholderIfAbsent=true"
+                      class="img-17"
+                    />
+                    <div class="div-51">Pinnen is mogelijk</div>
+                  </div>
+                  <div class="div-52">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5a40dfbb3487ea189ea4a22c63af6c0feb295b33b6ebdccdb34fa615946f1668?placeholderIfAbsent=true"
+                      class="img-18"
+                    />
+                    <div class="div-53">Particulier en zakelijk</div>
+                  </div>
+                  <div class="div-54">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7cd7b39d69e73bb5f9a6979210da250fa0bf26da002476662bc3089faef3407c?placeholderIfAbsent=true"
+                      class="img-19"
+                    />
+                    <div class="div-55">Hoge klanttevredenheid</div>
+                  </div>
+                  <div class="div-56">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/724bf8a34a68c49f92ced0dcf5fce2323fa4b67194f9a13f630e39c50be49bd0?placeholderIfAbsent=true"
+                      class="img-20"
+                    />
+                    <div class="div-57">+32 456 81 76 56</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-58">
+          <div class="div-59">
+            <div class="div-60">
+              Onze deskundige elektriciens zijn beschikbaar om u te helpen. Wij bieden
+              altijd een betrouwbare en veilige oplossing voor
+              uw elektriciteitsproblemen.
+            </div>
+            <div class="div-61">
+              <div class="div-62">
+                24/7 beschikbaar en bieden spoedservice indien nodig. Onze
+                ervaren elektriciens hebben uitgebreide expertise in het oplossen
+                van elektrische problemen en het installeren van nieuwe systemen.
+              </div>
+              <div class="div-63">
+                <br />
+      
+                Ook voor onderhoud of elektrische installatie bent u hier aan het
+                juiste adres. Onze elektriciens werken snel, doelgericht, nauwkeurig
+                en veilig. U bent dus binnen de kortste keren geholpen. Pak dus nu de
+                telefoon en neem direct contact met ons op.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-64">
+          <div class="div-65">
+            <div class="div-66">Wat is onze werkwijze?</div>
+            <div class="div-67">Snel, efficiënt en vakkundig</div>
+            <div class="div-68">
+              Aan de hand van deze 4 stappen bent u snel van uw stroomprobleem af!
+            </div>
+            <img
+              loading="lazy"
+              srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b7b6f55fa982c142b8f2067e33ed18e5bc03f5703dff17a5b2f90093d177b9a?placeholderIfAbsent=true"
+              class="img-21"
+            />
+            <div class="div-69" data-el="div-3">
+              <div class="div-70">
+                <div class="column-3">
+                  <div class="div-71">
+                    <div class="div-72">1</div>
+                    <div class="div-73">Elektriciteietsprobleem ?</div>
+                    <div class="div-74">
+                      Bel ons meteen, onze spoed elektriciens staan paraat of maak een
+                      afspraak
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4">
+                  <div class="div-75">
+                    <div class="div-76">2</div>
+                    <div class="div-77">De elektricien komt eraan</div>
+                    <div class="div-78">
+                      Hna een grondige analyse bespreekt hij de problemen en hoe ze te
+                      herstellen zijn
+                    </div>
+                  </div>
+                </div>
+                <div class="column-5">
+                  <div class="div-79">
+                    <div class="div-80">3</div>
+                    <div class="div-81">Stroom probleem opgelost</div>
+                    <div class="div-82">
+                      de elektricien zorgt voor stroceen vlotte herstelling zodat i je
+                      weer verder kan !
+                    </div>
+                  </div>
+                </div>
+                <div class="column-6">
+                  <div class="div-83">
+                    <div class="div-84">4</div>
+                    <div class="div-85">Overzicht en Analyse</div>
+                    <div class="div-86">
+                      Overzicht en Analyse Je krijgt een woordje uitleg hoe je in de
+                      toekomst dit probleem kan voorkomen of wat er nog moet gebeuren.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-87">
+          <div class="div-88">
+            <div class="div-89">Blog Stroomproblemen</div>
+            <div class="div-90">
+               Wat doen we allemaal, wat voor problemen bestaan er
+            </div>
+            <div class="div-91" data-el="div-4">
+              <div class="div-92">
+                <div class="column-7">
+                  <div class="div-93">
+                    <img
+                      loading="lazy"
+                      srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5613bfbd020f3e82330c998153405f18e9bba0fa2b25eaac87aff4a610fbe7d1?placeholderIfAbsent=true"
+                      class="img-22"
+                    />
+                    <div class="div-94">30 sep 2020 • redactie</div>
+                    <div class="div-95">•Zekeringkast vervangen / vernieuwen</div>
+                  </div>
+                </div>
+                <div class="column-8">
+                  <div class="div-96">
+                    <div class="div-97">
+                      <img
+                        loading="lazy"
+                        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c59d6b47ac64ad27771cbc7b357d115b4699f65fe2c68d3a063a186f362a2988?placeholderIfAbsent=true"
+                        class="img-23"
+                      />
+                      <div class="div-98">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/65014c5c3f5b12dc3a82c3f3cb9b938e5a14ecee7997b42ad89d505687a993cd?placeholderIfAbsent=true"
+                          class="img-24"
+                        />
+                        <div class="div-99">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/4191e8f57041d8783de22891685631e7e515c0d0f7c6a7a255897e10ce52247d?placeholderIfAbsent=true"
+                            class="img-25"
+                          />
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bf9f90d0229e5d89acb891894b3fb0c6cf01070c803fd25bd16e03e592fcf2c1?placeholderIfAbsent=true"
+                            class="img-26"
+                          />
+                        </div>
+                        <div class="div-100">
+                          <div class="div-101">Elektriciteit aanleggen</div>
+                          <div class="div-102">3 min</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-103">30 sep 2020 • redactie</div>
+                    <div class="div-104">Advies over vernieuwen elektriciteit</div>
+                  </div>
+                </div>
+                <div class="column-9">
+                  <div class="div-105">
+                    <div class="div-106">
+                      <img
+                        loading="lazy"
+                        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7732ffe9ecee558f0987fd7109c4c08a407bcadacd821ef753bed0c6c08aeb8c?placeholderIfAbsent=true"
+                        class="img-27"
+                      />
+                      <div class="div-107">
+                        <img
+                          loading="lazy"
+                          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0528632cde9f5e82a5a833afd94cffcf5e4fd3f2fa0ee434feae640500bcee4?placeholderIfAbsent=true"
+                          class="img-28"
+                        />
+                        <div class="div-108">
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1be69725f2cd85baee81286b6cca6df71afefbc769a6df12dba87db7c0f7969a?placeholderIfAbsent=true"
+                            class="img-29"
+                          />
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b9e90828c5d775487367c4bd5a37c651b498b83f88aadae91228daf858a024e?placeholderIfAbsent=true"
+                            class="img-30"
+                          />
+                        </div>
+                        <div class="div-109">
+                          <div class="div-110">Elektriciteit aanleggen</div>
+                          <div class="div-111">3 min</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-112">30 sep 2020 • redactie</div>
+                    <div class="div-113">Zonnepannelen</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="div-114">Lees alle artikelen</div>
+          </div>
+        </div>
+        <div class="div-115">
+          <div class="div-116">
+            <div class="div-117" data-el="div-5">
+              <div class="div-118">
+                <div class="column-10">
+                  <div class="div-119">Vind de elektricien voor uw regio</div>
+                </div>
+                <div class="column-11">
+                  <img
+                    loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a21e0d127715aa848571575fe0bdbad0f1b7ea71b7eb460a85221192a9c34?placeholderIfAbsent=true"
+                    class="img-31"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="div-120">Onze elektriciens zijn actief in Vlaanderen</div>
+            <div class="div-121">Bekijk alle locaties</div>
+          </div>
+        </div>
+        <div class="div-122">
+          <div class="div-123">
+            <div class="div-124">Gekwalificeerde elektriciens voor uw REGIO</div>
+            <div class="div-125">Wij staan voor u klaar in heel Vlaanderen</div>
+            <div class="div-126" data-el="div-6">
+              <div class="div-127">
+                <div class="column-12">
+                  <div class="div-128">
+                    <img
+                      loading="lazy"
+                      srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae79564909984d225a55d87db65af151b95afec83529b6f678dee61a64538f2a?placeholderIfAbsent=true"
+                      class="img-32"
+                    />
+                    <div class="div-129">Brussel</div>
+                  </div>
+                </div>
+                <div class="column-13">
+                  <div class="div-130">
+                    <img
+                      loading="lazy"
+                      srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed2e04bb488f01766be3c0e0a2edd74d5c143e5fbe763ee76c92bf48263200c6?placeholderIfAbsent=true"
+                      class="img-33"
+                    />
+                    <div class="div-131">Antwerpen</div>
+                  </div>
+                </div>
+                <div class="column-14">
+                  <div class="div-132">
+                    <div class="div-133">
+                      <img
+                        loading="lazy"
+                        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f838fa44befe34365fca6bd23ac5ab7cc894f31ad83bd810bf74d011559f2a92?placeholderIfAbsent=true"
+                        class="img-34"
+                      />
+                      <div class="div-134">Gent</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5816aa8c20ad8da1bbcad1eba955a0cbb2c447f7722c2ed6fa48f8c61cdecfa4?placeholderIfAbsent=true"
+                      class="img-35"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="div-135">
+              <div class="div-136"></div>
+              <div class="div-137"></div>
+              <div class="div-138"></div>
+            </div>
+            <div class="div-139">Bekijk alle locaties</div>
+          </div>
+        </div>
+        <div class="div-140">
+          <div class="div-141">
+            <div class="div-142">
+              <div class="div-143">Zoek de elektricien voor uw regio</div>
+              <div class="div-144">
+                Vul uw plaats of postcode in en vind de vakman voor uw regio
+              </div>
+            </div>
+            <div class="div-145">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/276e5828ab415735f82e28244f3913ccc0de6cdcc00f1eb16e4ce85f77aa5bd2?placeholderIfAbsent=true"
+                class="img-36"
+              />
+              <div class="div-146">Vul uw plaats of postcode in</div>
+            </div>
+            <div class="div-147">Vind mijn elektricien</div>
+          </div>
+        </div>
+        <div class="div-148" data-el="div-7">
+          <div class="div-149">
+            <div class="column-15">
+              <div class="div-150">
+                <div class="div-151">
+                  <div class="div-152">Vind een specialist voor</div>
+                  <div class="div-153">Brussel</div>
+                  <div class="div-154">Antwerpen</div>
+                  <div class="div-155">Gent</div>
+                  <div class="div-156">Brugge</div>
+                  <div class="div-157">Leuven</div>
+                </div>
+                <div class="div-158">
+                  <div class="div-159">Mechelen</div>
+                  <div class="div-160">Aalst</div>
+                  <div class="div-161">Hasselt</div>
+                  <div class="div-162">Sint-Niklaas</div>
+                  <div class="div-163">Kortrijk</div>
+                </div>
+              </div>
+            </div>
+            <div class="column-16">
+              <div class="div-164">
+                <div class="div-165">
+                  <div class="div-166">Bekijk meer</div>
+                  <div class="div-167">Contact met de elektricien</div>
+                  <div class="div-168">Aanmelden als elektricien</div>
+                  <div class="div-169">Veelgestelde vragen</div>
+                  <div class="div-170">Offerte en afspraak</div>
+                </div>
+                <div class="div-171">
+                  <div class="div-172">Blog</div>
+                  <div class="div-173">Over ons</div>
+                  <div class="div-174">Klantenservice</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-175">
+          <img
+            loading="lazy"
+            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8c5f4e1d5dad483b90f4e9c70e204a74a5217c8f719fc362abf085468d99f1fb?placeholderIfAbsent=true"
+            class="img-37"
+          />
+          <div class="div-176">
+            <div class="div-177" data-el="div-8">
+              <div class="div-178">
+                <div class="column">
+                  <img
+                    loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/834784676a3288bcd26146825ee130720578e7a29ad9fc3e8e88a0bc99e2110a?placeholderIfAbsent=true"
+                    class="img-38"
+                  />
+                </div>
+                <div class="column-17">
+                  <div class="div-179">
+                    <div class="div-180">
+                      In een mum van tijd uw
+      
+                      <br />
+      
+                      stroomprobleem opgelost
+                    </div>
+                    <div class="div-181">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcf8495ac0fab90f9b3ba918689874c268450bf94c94d2e5be8e85a21a75da21?placeholderIfAbsent=true"
+                        class="img-39"
+                      />
+                      <div class="div-182">+32 456 81 76 56</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="div-183">
+              <div class="div-184">Voorwaarden</div>
+              <div class="div-185">Disclaimer</div>
+              <div class="div-186">Privacy & Cookies</div>
+              <div class="div-187">Sitemap</div>
+            </div>
+          </div>
+        </div>
+      </div>    
+</body>
 </html>
+
+  <style>
+    .div {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+    .div-2 {
+      justify-content: center;
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        max-width: 100%;
+      }
+    }
+    .div-3 {
+      align-items: center;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      text-align: center;
+      justify-content: center;
+    }
+    @media (max-width: 991px) {
+      .div-3 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-4 {
+      align-items: center;
+      background-color: #f9f9f0;
+      display: flex;
+      width: 579px;
+      max-width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      justify-content: center;
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-5 {
+      display: flex;
+      width: 230px;
+      max-width: 100%;
+      flex-direction: column;
+    }
+    .div-6 {
+      align-self: center;
+      display: flex;
+      gap: 4px;
+      font-size: 14px;
+      color: #444;
+      font-weight: 400;
+      line-height: 161.26%;
+    }
+    .img {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 8px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-7 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-8 {
+      justify-content: center;
+      border-radius: 4px;
+      border-color: rgba(255, 229, 95, 1);
+      border-style: solid;
+      border-width: 1px;
+      background-color: #ffe55f;
+      display: flex;
+      margin-top: 18px;
+      padding-left: 13px;
+      padding-right: 13px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      gap: 1px;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 700;
+      line-height: 160%;
+    }
+    .img-2 {
+      aspect-ratio: 4;
+      object-fit: auto;
+      object-position: center;
+      width: 105px;
+      max-width: 100%;
+    }
+    .div-9 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-10 {
+      border-color: rgba(222, 226, 230, 1);
+      border-style: solid;
+      border-top-width: 1px;
+      border-bottom-width: 1px;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      align-items: center;
+      font-size: 14px;
+      color: #343a40;
+      font-weight: 700;
+      line-height: 160%;
+      justify-content: center;
+    }
+    @media (max-width: 991px) {
+      .div-10 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-11 {
+      display: flex;
+      gap: 15px;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-11 {
+        flex-wrap: wrap;
+      }
+    }
+    .div-12 {
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      gap: 10px;
+      white-space: nowrap;
+    }
+    @media (max-width: 991px) {
+      .div-12 {
+        white-space: initial;
+      }
+    }
+    .img-3 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-13 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-14 {
+      display: flex;
+      gap: 0px;
+      line-height: 14px;
+    }
+    @media (max-width: 991px) {
+      .div-14 {
+        flex-wrap: wrap;
+      }
+    }
+    .div-15 {
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      display: flex;
+      padding-left: 31px;
+      padding-right: 31px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      gap: 20px;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-15 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-16 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .img-4 {
+      aspect-ratio: 1.85;
+      object-fit: auto;
+      object-position: center;
+      width: 13px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-17 {
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      display: flex;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      gap: 5px;
+      white-space: nowrap;
+      text-align: center;
+    }
+    @media (max-width: 991px) {
+      .div-17 {
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .div-18 {
+      display: flex;
+      gap: 2px;
+    }
+    @media (max-width: 991px) {
+      .div-18 {
+        white-space: initial;
+      }
+    }
+    .img-5 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+      align-self: start;
+    }
+    .div-19 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .img-6 {
+      aspect-ratio: 1.85;
+      object-fit: auto;
+      object-position: center;
+      width: 13px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-20 {
+      justify-content: center;
+      align-items: center;
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      display: flex;
+      padding-left: 31px;
+      padding-right: 31px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      gap: 10px;
+      text-align: center;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-20 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .img-7 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+      align-self: stretch;
+    }
+    .div-21 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      align-self: stretch;
+      margin-top: auto;
+      margin-bottom: auto;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .img-8 {
+      aspect-ratio: 1.85;
+      object-fit: auto;
+      object-position: center;
+      width: 13px;
+      align-self: stretch;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-22 {
+      justify-content: center;
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      gap: 10px;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-22 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .img-9 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-23 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .img-10 {
+      aspect-ratio: 4.55;
+      object-fit: auto;
+      object-position: center;
+      width: 136px;
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      max-width: 100%;
+    }
+    .div-24 {
+      justify-content: center;
+      border-color: rgba(227, 227, 227, 1);
+      border-style: solid;
+      border-left-width: 1px;
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      gap: 10px;
+      white-space: nowrap;
+    }
+    @media (max-width: 991px) {
+      .div-24 {
+        padding-left: 20px;
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-11 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-25 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .div-26 {
+      background-color: #f0f6f9;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 80px;
+      flex-direction: column;
+      align-items: center;
+    }
+    @media (max-width: 991px) {
+      .div-26 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-27 {
+      display: flex;
+      margin-top: 158px;
+      width: 100%;
+      max-width: 1344px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-27 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-28 {
+      color: #444;
+      text-align: center;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 67px;
+      align-self: center;
+      z-index: 10;
+    }
+    @media (max-width: 991px) {
+      .div-28 {
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 54px;
+      }
+    }
+    .div-29 {
+      disply: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      min-height: 498px;
+      width: 100%;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 18px;
+    }
+    @media (max-width: 991px) {
+      .div-29 {
+        max-width: 100%;
+        padding-left: 20px;
+      }
+    }
+    .img-12 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-30 {
+      disply: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      min-height: 498px;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 991px) {
+      .div-30 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .img-13 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-31 {
+      position: relative;
+      display: flex;
+      margin-top: 62px;
+      margin-bottom: 162px;
+      width: 650px;
+      max-width: 100%;
+      gap: 20px;
+    }
+    @media (max-width: 991px) {
+      .div-31 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+    .div-32 {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+      background-color: rgba(255, 255, 255, 0);
+      display: flex;
+      padding-left: 31px;
+      padding-right: 31px;
+      flex-direction: column;
+      color: #6c757d;
+      font-weight: 400;
+      line-height: normal;
+      justify-content: center;
+      flex-grow: 1;
+      flex-basis: 0;
+      width: fit-content;
+    }
+    @media (max-width: 991px) {
+      .div-32 {
+        padding-left: 20px;
+      }
+    }
+    .div-33 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 1px 4px 4px 1px;
+      background-color: #fff;
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 19px;
+      padding-bottom: 19px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-33 {
+        padding-left: 20px;
+      }
+    }
+    .div-34 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+      background-color: #ffdb5b;
+      display: flex;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 19px;
+      padding-bottom: 19px;
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+      line-height: 277.778%;
+      flex-grow: 1;
+      width: fit-content;
+    }
+    @media (max-width: 991px) {
+      .div-34 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-35 {
+      align-items: center;
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 65px;
+      padding-bottom: 32px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-35 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-36 {
+      width: 1110px;
+      max-width: 100%;
+    }
+    .div-37 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-37 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 56%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .div-38 {
+      display: flex;
+      flex-direction: column;
+      color: #444;
+    }
+    @media (max-width: 991px) {
+      .div-38 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-39 {
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 46px;
+    }
+    @media (max-width: 991px) {
+      .div-39 {
+        max-width: 100%;
+      }
+    }
+    .div-40 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      margin-top: 57px;
+    }
+    @media (max-width: 991px) {
+      .div-40 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-41 {
+      color: #0091cf;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 160%;
+      margin-top: 87px;
+    }
+    @media (max-width: 991px) {
+      .div-41 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .column-2 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 44%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-2 {
+        width: 100%;
+      }
+    }
+    .div-42 {
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+      background-color: #fff;
+      display: flex;
+      margin-top: 15px;
+      flex-grow: 1;
+      padding-left: 36px;
+      padding-right: 80px;
+      padding-top: 46px;
+      padding-bottom: 46px;
+      flex-direction: column;
+      align-items: start;
+      font-size: 16px;
+      color: #444;
+      font-weight: 400;
+      line-height: 160%;
+      width: 100%;
+    }
+    @media (max-width: 991px) {
+      .div-42 {
+        max-width: 100%;
+        margin-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-43 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120.945%;
+    }
+    .div-44 {
+      display: flex;
+      margin-top: 26px;
+      gap: 16px;
+    }
+    .img-14 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+    }
+    .div-45 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-46 {
+      display: flex;
+      margin-top: 20px;
+      gap: 16px;
+    }
+    .img-15 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+    }
+    .div-47 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-48 {
+      display: flex;
+      margin-top: 19px;
+      gap: 16px;
+    }
+    .img-16 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+    }
+    .div-49 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: auto;
+      margin-bottom: auto;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-50 {
+      display: flex;
+      margin-top: 20px;
+      gap: 16px;
+    }
+    .img-17 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+    }
+    .div-51 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-52 {
+      display: flex;
+      margin-top: 20px;
+      gap: 16px;
+    }
+    .img-18 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+    }
+    .div-53 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-54 {
+      display: flex;
+      margin-top: 19px;
+      gap: 16px;
+    }
+    .img-19 {
+      aspect-ratio: 1.32;
+      object-fit: auto;
+      object-position: center;
+      width: 21px;
+      align-self: start;
+    }
+    .div-55 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-56 {
+      display: flex;
+      margin-top: 37px;
+      gap: 10px;
+      font-size: 18px;
+      color: #0091cf;
+      font-weight: 700;
+    }
+    .img-20 {
+      aspect-ratio: 0.93;
+      object-fit: auto;
+      object-position: center;
+      width: 15px;
+    }
+    .div-57 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-58 {
+      background-color: #f7f9f0;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 48px;
+      padding-bottom: 80px;
+      flex-direction: column;
+      align-items: center;
+      color: #444;
+    }
+    @media (max-width: 991px) {
+      .div-58 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-59 {
+      display: flex;
+      width: 1089px;
+      max-width: 100%;
+      flex-direction: column;
+    }
+    .div-60 {
+      text-align: center;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 46px;
+      align-self: center;
+    }
+    @media (max-width: 991px) {
+      .div-60 {
+        max-width: 100%;
+      }
+    }
+    .div-61 {
+      display: flex;
+      margin-top: 61px;
+      gap: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    @media (max-width: 991px) {
+      .div-61 {
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+    }
+    .div-62 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: auto;
+      margin-bottom: auto;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    @media (max-width: 991px) {
+      .div-62 {
+        max-width: 100%;
+      }
+    }
+    .div-63 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    @media (max-width: 991px) {
+      .div-63 {
+        max-width: 100%;
+      }
+    }
+    .div-64 {
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    @media (max-width: 991px) {
+      .div-64 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-65 {
+      display: flex;
+      margin-top: 7px;
+      width: 1110px;
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div-66 {
+      color: #444;
+      text-align: center;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    .div-67 {
+      color: #444;
+      text-align: center;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120.471%;
+      margin-top: 15px;
+    }
+    .div-68 {
+      color: #444;
+      text-align: center;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 43px;
+    }
+    @media (max-width: 991px) {
+      .div-68 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .img-21 {
+      aspect-ratio: 5.26;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      align-self: stretch;
+      margin-top: 21px;
+    }
+    @media (max-width: 991px) {
+      .img-21 {
+        max-width: 100%;
+      }
+    }
+    .div-69 {
+      align-self: stretch;
+      margin-left: 22px;
+      margin-right: 22px;
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+    @media (max-width: 991px) {
+      .div-69 {
+        max-width: 100%;
+        margin-right: 10px;
+        margin-left: 0px;
+      }
+    }
+    .div-70 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-70 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column-3 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 25%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column-3 {
+        width: 100%;
+      }
+    }
+    .div-71 {
+      display: flex;
+      flex-direction: column;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+    }
+    @media (max-width: 991px) {
+      .div-71 {
+        margin-top: 40px;
+      }
+    }
+    .div-72 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      background-color: #0091cf;
+      align-self: center;
+      display: flex;
+      width: 50px;
+      padding-left: 21px;
+      padding-right: 21px;
+      flex-direction: column;
+      font-size: 26px;
+      color: #fff;
+      white-space: nowrap;
+      line-height: 100%;
+      height: 50px;
+    }
+    @media (max-width: 991px) {
+      .div-72 {
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .div-73 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 29px;
+      margin-top: 23px;
+    }
+    .div-74 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 25px;
+    }
+    .column-4 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 25%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-4 {
+        width: 100%;
+      }
+    }
+    .div-75 {
+      display: flex;
+      flex-direction: column;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+    }
+    @media (max-width: 991px) {
+      .div-75 {
+        margin-top: 40px;
+      }
+    }
+    .div-76 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      background-color: #0091cf;
+      align-self: center;
+      display: flex;
+      width: 50px;
+      padding-left: 19px;
+      padding-right: 19px;
+      flex-direction: column;
+      font-size: 26px;
+      color: #fff;
+      white-space: nowrap;
+      line-height: 100%;
+      height: 50px;
+    }
+    @media (max-width: 991px) {
+      .div-76 {
+        white-space: initial;
+      }
+    }
+    .div-77 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 160%;
+      margin-top: 24px;
+    }
+    .div-78 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 53px;
+    }
+    @media (max-width: 991px) {
+      .div-78 {
+        margin-top: 40px;
+      }
+    }
+    .column-5 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 25%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-5 {
+        width: 100%;
+      }
+    }
+    .div-79 {
+      display: flex;
+      flex-direction: column;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+    }
+    @media (max-width: 991px) {
+      .div-79 {
+        margin-top: 40px;
+      }
+    }
+    .div-80 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      background-color: #0091cf;
+      align-self: center;
+      display: flex;
+      width: 50px;
+      padding-left: 19px;
+      padding-right: 19px;
+      flex-direction: column;
+      font-size: 26px;
+      color: #fff;
+      white-space: nowrap;
+      line-height: 100%;
+      height: 50px;
+    }
+    @media (max-width: 991px) {
+      .div-80 {
+        white-space: initial;
+      }
+    }
+    .div-81 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 160%;
+      margin-top: 24px;
+    }
+    .div-82 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 42px;
+    }
+    @media (max-width: 991px) {
+      .div-82 {
+        margin-top: 40px;
+      }
+    }
+    .column-6 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 25%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-6 {
+        width: 100%;
+      }
+    }
+    .div-83 {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: center;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+    }
+    @media (max-width: 991px) {
+      .div-83 {
+        margin-top: 40px;
+      }
+    }
+    .div-84 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      background-color: #0091cf;
+      display: flex;
+      width: 50px;
+      padding-left: 19px;
+      padding-right: 19px;
+      flex-direction: column;
+      font-size: 26px;
+      color: #fff;
+      white-space: nowrap;
+      line-height: 100%;
+      height: 50px;
+    }
+    @media (max-width: 991px) {
+      .div-84 {
+        white-space: initial;
+      }
+    }
+    .div-85 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 160%;
+      margin-top: 24px;
+    }
+    .div-86 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      align-self: stretch;
+      margin-top: 17px;
+    }
+    .div-87 {
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(
+        180deg,
+        #fff 0%,
+        #fff 50%,
+        #f9f0f0 50%,
+        #f9f0f0 100%
+      );
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 43px;
+      padding-bottom: 80px;
+    }
+    @media (max-width: 991px) {
+      .div-87 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-88 {
+      display: flex;
+      margin-bottom: 14px;
+      width: 1110px;
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div-89 {
+      color: #444;
+      text-align: center;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px;
+    }
+    .div-90 {
+      color: #444;
+      text-align: center;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31px;
+      margin-top: 15px;
+    }
+    @media (max-width: 991px) {
+      .div-90 {
+        max-width: 100%;
+      }
+    }
+    .div-91 {
+      align-self: stretch;
+      margin-top: 22px;
+    }
+    @media (max-width: 991px) {
+      .div-91 {
+        max-width: 100%;
+      }
+    }
+    .div-92 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-92 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column-7 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column-7 {
+        width: 100%;
+      }
+    }
+    .div-93 {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      color: #343a40;
+    }
+    @media (max-width: 991px) {
+      .div-93 {
+        margin-top: 30px;
+      }
+    }
+    .img-22 {
+      aspect-ratio: 1.49;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+    }
+    .div-94 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+    .div-95 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 185.263%;
+      margin-top: 32px;
+    }
+    .column-8 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-8 {
+        width: 100%;
+      }
+    }
+    .div-96 {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-96 {
+        margin-top: 30px;
+      }
+    }
+    .div-97 {
+      disply: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      aspect-ratio: 1.5;
+      width: 100%;
+    }
+    .img-23 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-98 {
+      disply: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      aspect-ratio: 1.5;
+      width: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @media (max-width: 991px) {
+      .div-98 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .img-24 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-99 {
+      position: relative;
+      align-self: end;
+      display: flex;
+      width: 42px;
+      flex-direction: column;
+    }
+    .img-25 {
+      aspect-ratio: 0.79;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      align-self: center;
+    }
+    .img-26 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      margin-top: 122px;
+    }
+    @media (max-width: 991px) {
+      .img-26 {
+        margin-top: 40px;
+      }
+    }
+    .div-100 {
+      position: relative;
+      display: flex;
+      gap: 20px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 160%;
+      justify-content: space-between;
+    }
+    .div-101 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #fff;
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      flex-direction: column;
+      color: #343a40;
+    }
+    .div-102 {
+      color: #fff;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      align-self: start;
+    }
+    .div-103 {
+      color: #343a40;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+    .div-104 {
+      color: #343a40;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 185.263%;
+      margin-top: 32px;
+    }
+    .column-9 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-9 {
+        width: 100%;
+      }
+    }
+    .div-105 {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-105 {
+        margin-top: 30px;
+      }
+    }
+    .div-106 {
+      disply: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      aspect-ratio: 1.5;
+      width: 100%;
+    }
+    .img-27 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-107 {
+      disply: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      aspect-ratio: 1.5;
+      width: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @media (max-width: 991px) {
+      .div-107 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .img-28 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-108 {
+      position: relative;
+      align-self: end;
+      display: flex;
+      width: 42px;
+      flex-direction: column;
+    }
+    .img-29 {
+      aspect-ratio: 0.79;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      align-self: center;
+    }
+    .img-30 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      margin-top: 122px;
+    }
+    @media (max-width: 991px) {
+      .img-30 {
+        margin-top: 40px;
+      }
+    }
+    .div-109 {
+      position: relative;
+      display: flex;
+      gap: 20px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 160%;
+      justify-content: space-between;
+    }
+    .div-110 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #fff;
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      flex-direction: column;
+      color: #343a40;
+    }
+    .div-111 {
+      color: #fff;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      align-self: start;
+    }
+    .div-112 {
+      color: #343a40;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+    .div-113 {
+      color: #343a40;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 185.263%;
+      margin-top: 32px;
+    }
+    .div-114 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 4px;
+      background-color: #d3e6ee;
+      display: flex;
+      margin-top: 59px;
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-top: 19px;
+      padding-bottom: 19px;
+      flex-direction: column;
+      font-size: 18px;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+      line-height: 277.778%;
+    }
+    @media (max-width: 991px) {
+      .div-114 {
+        margin-top: 40px;
+      }
+    }
+    .div-115 {
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 37px;
+      flex-direction: column;
+      align-items: center;
+    }
+    @media (max-width: 991px) {
+      .div-115 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-116 {
+      display: flex;
+      margin-left: 67px;
+      width: 1243px;
+      max-width: 100%;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-116 {
+        margin-left: 0px;
+      }
+    }
+    .div-117 {
+    }
+    @media (max-width: 991px) {
+      .div-117 {
+        max-width: 100%;
+      }
+    }
+    .div-118 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-118 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column-10 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 50%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column-10 {
+        width: 100%;
+      }
+    }
+    .div-119 {
+      color: #444;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      margin-top: 213px;
+    }
+    @media (max-width: 991px) {
+      .div-119 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .column-11 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 50%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-11 {
+        width: 100%;
+      }
+    }
+    .img-31 {
+      aspect-ratio: 2.22;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      flex-grow: 1;
+    }
+    @media (max-width: 991px) {
+      .img-31 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-120 {
+      color: #444;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31px;
+    }
+    @media (max-width: 991px) {
+      .div-120 {
+        max-width: 100%;
+      }
+    }
+    .div-121 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 4px;
+      background-color: #d3e6ee;
+      align-self: start;
+      display: flex;
+      margin-top: 12px;
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      flex-direction: column;
+      font-size: 18px;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+      line-height: 277.778%;
+    }
+    .div-122 {
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    @media (max-width: 991px) {
+      .div-122 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-123 {
+      display: flex;
+      margin-top: 8px;
+      width: 1175px;
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div-124 {
+      color: #444;
+      text-align: center;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    @media (max-width: 991px) {
+      .div-124 {
+        max-width: 100%;
+      }
+    }
+    .div-125 {
+      color: #444;
+      text-align: center;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120.471%;
+      margin-top: 24px;
+    }
+    @media (max-width: 991px) {
+      .div-125 {
+        max-width: 100%;
+      }
+    }
+    .div-126 {
+      align-self: stretch;
+      margin-top: 46px;
+    }
+    @media (max-width: 991px) {
+      .div-126 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-127 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-127 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column-12 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column-12 {
+        width: 100%;
+      }
+    }
+    .div-128 {
+      disply: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      aspect-ratio: 1.5;
+      flex-grow: 1;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 80px;
+      align-items: start;
+      font-size: 16px;
+      color: #343a40;
+      font-weight: 700;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-128 {
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-32 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-129 {
+      position: relative;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #fff;
+      display: flex;
+      margin-top: 118px;
+      padding-left: 21px;
+      padding-right: 21px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-129 {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+    .column-13 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-13 {
+        width: 100%;
+      }
+    }
+    .div-130 {
+      disply: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      aspect-ratio: 1.5;
+      flex-grow: 1;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 80px;
+      align-items: start;
+      font-size: 16px;
+      color: #343a40;
+      font-weight: 700;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-130 {
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-33 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-131 {
+      position: relative;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #fff;
+      display: flex;
+      margin-top: 118px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-131 {
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+    .column-14 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 33%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-14 {
+        width: 100%;
+      }
+    }
+    .div-132 {
+      display: flex;
+      flex-grow: 1;
+      gap: 15px;
+      font-size: 16px;
+      color: #343a40;
+      font-weight: 700;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-132 {
+        margin-top: 30px;
+        white-space: initial;
+      }
+    }
+    .div-133 {
+      disply: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      aspect-ratio: 1.5;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 80px;
+      align-items: start;
+      flex-grow: 1;
+      flex-basis: 0;
+      width: fit-content;
+    }
+    @media (max-width: 991px) {
+      .div-133 {
+        padding-left: 20px;
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-34 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-134 {
+      position: relative;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #fff;
+      display: flex;
+      margin-top: 118px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-134 {
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+    .img-35 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 50px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-135 {
+      display: flex;
+      margin-top: 45px;
+      gap: 14px;
+    }
+    @media (max-width: 991px) {
+      .div-135 {
+        margin-top: 40px;
+      }
+    }
+    .div-136 {
+      border-radius: 30px;
+      background-color: #869791;
+      width: 10px;
+      height: 10px;
+    }
+    .div-137 {
+      border-radius: 30px;
+      background-color: #d6d6d6;
+      width: 10px;
+      height: 10px;
+    }
+    .div-138 {
+      border-radius: 30px;
+      background-color: #d6d6d6;
+      width: 10px;
+      height: 10px;
+    }
+    .div-139 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 4px;
+      background-color: #d3e6ee;
+      display: flex;
+      margin-top: 48px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      flex-direction: column;
+      font-size: 18px;
+      color: #444;
+      font-weight: 700;
+      text-align: center;
+      line-height: 277.778%;
+    }
+    @media (max-width: 991px) {
+      .div-139 {
+        margin-top: 40px;
+      }
+    }
+    .div-140 {
+      background-color: #ffe455;
+      display: flex;
+      width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 37px;
+      padding-bottom: 37px;
+      align-items: center;
+      color: #fff;
+      justify-content: center;
+    }
+    @media (max-width: 991px) {
+      .div-140 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-141 {
+      display: flex;
+      align-items: start;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-141 {
+        flex-wrap: wrap;
+      }
+    }
+    .div-142 {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-142 {
+        max-width: 100%;
+      }
+    }
+    .div-143 {
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 160%;
+    }
+    @media (max-width: 991px) {
+      .div-143 {
+        max-width: 100%;
+      }
+    }
+    .div-144 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 161.26%;
+      margin-top: 13px;
+    }
+    @media (max-width: 991px) {
+      .div-144 {
+        max-width: 100%;
+      }
+    }
+    .div-145 {
+      justify-content: center;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+      background-color: rgba(255, 255, 255, 0);
+      display: flex;
+      gap: 0px;
+      font-size: 16px;
+      color: #6c757d;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .img-36 {
+      aspect-ratio: 0.88;
+      object-fit: auto;
+      object-position: center;
+      width: 44px;
+    }
+    .div-146 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      align-items: start;
+      border-radius: 1px 4px 4px 1px;
+      background-color: #fff;
+      display: flex;
+      padding-left: 27px;
+      padding-right: 27px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      flex-direction: column;
+      flex-grow: 1;
+      width: fit-content;
+    }
+    @media (max-width: 991px) {
+      .div-146 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-147 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      justify-content: center;
+      border-radius: 4px;
+      background-color: #eabb43;
+      display: flex;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      flex-direction: column;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 277.778%;
+    }
+    @media (max-width: 991px) {
+      .div-147 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .div-148 {
+      align-self: center;
+      margin-top: 43px;
+      width: 958px;
+      max-width: 100%;
+    }
+    @media (max-width: 991px) {
+      .div-148 {
+        margin-top: 40px;
+      }
+    }
+    .div-149 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-149 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column-15 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 55%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column-15 {
+        width: 100%;
+      }
+    }
+    .div-150 {
+      display: flex;
+      flex-grow: 1;
+      gap: 20px;
+      font-size: 16px;
+      color: #0091cf;
+      font-weight: 400;
+      line-height: 225%;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-150 {
+        margin-top: 40px;
+      }
+    }
+    .div-151 {
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+    }
+    .div-152 {
+      color: #444;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 146.142%;
+    }
+    .div-153 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 33px;
+    }
+    .div-154 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-155 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 20px;
+    }
+    .div-156 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-157 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 21px;
+    }
+    .div-158 {
+      align-self: end;
+      display: flex;
+      margin-top: 53px;
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+      white-space: nowrap;
+    }
+    @media (max-width: 991px) {
+      .div-158 {
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+    .div-159 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .div-160 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-161 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-162 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 23px;
+    }
+    .div-163 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .column-16 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 45%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-16 {
+        width: 100%;
+      }
+    }
+    .div-164 {
+      display: flex;
+      gap: 20px;
+      font-size: 16px;
+      color: #0091cf;
+      font-weight: 400;
+      line-height: 225%;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-164 {
+        margin-top: 40px;
+      }
+    }
+    .div-165 {
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+    }
+    .div-166 {
+      color: #444;
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 145%;
+    }
+    .div-167 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 31px;
+    }
+    .div-168 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-169 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-170 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 20px;
+    }
+    .div-171 {
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+    }
+    .div-172 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .div-173 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 20px;
+    }
+    .div-174 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      margin-top: 24px;
+    }
+    .div-175 {
+      disply: flex;
+      flex-direction: column;
+      overflow: hidden;
+      align-self: center;
+      position: relative;
+      display: flex;
+      min-height: 515px;
+      margin-top: 45px;
+      width: 1536px;
+      max-width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 36px;
+      padding-bottom: 80px;
+      align-items: center;
+    }
+    @media (max-width: 991px) {
+      .div-175 {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+      }
+    }
+    .img-37 {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .div-176 {
+      position: relative;
+      display: flex;
+      margin-bottom: 54px;
+      width: 695px;
+      max-width: 100%;
+      flex-direction: column;
+    }
+    @media (max-width: 991px) {
+      .div-176 {
+        margin-bottom: 40px;
+      }
+    }
+    .div-177 {
+    }
+    @media (max-width: 991px) {
+      .div-177 {
+        max-width: 100%;
+      }
+    }
+    .div-178 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-178 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .img-38 {
+      aspect-ratio: 1.75;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      flex-grow: 1;
+    }
+    @media (max-width: 991px) {
+      .img-38 {
+        margin-top: 30px;
+      }
+    }
+    .column-17 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 44%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-17 {
+        width: 100%;
+      }
+    }
+    .div-179 {
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      flex-direction: column;
+      align-self: stretch;
+    }
+    @media (max-width: 991px) {
+      .div-179 {
+        margin-top: 40px;
+      }
+    }
+    .div-180 {
+      color: #8c0a14;
+      font-family: Zilla Slab, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 31px;
+    }
+    .div-181 {
+      display: flex;
+      margin-top: 13px;
+      gap: 10px;
+      font-size: 18px;
+      color: #0091cf;
+      font-weight: 700;
+      line-height: 29px;
+    }
+    .img-39 {
+      aspect-ratio: 0.93;
+      object-fit: auto;
+      object-position: center;
+      width: 15px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .div-182 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-183 {
+      align-self: end;
+      display: flex;
+      margin-top: 83px;
+      gap: 20px;
+      font-size: 16px;
+      color: #0091cf;
+      font-weight: 400;
+      text-align: center;
+      line-height: 225%;
+    }
+    @media (max-width: 991px) {
+      .div-183 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+    }
+    .div-184 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+    }
+    .div-185 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+    .div-186 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    .div-187 {
+      font-family: Helvetica, -apple-system, Roboto, Helvetica, sans-serif;
+      font-style: normal;
+    }
+
+    .menuItemTxt:hover{
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+  </style>
+  <script>
+    (() => {
+      const state = {};
+  
+      let context = null;
+      let nodesToDestroy = [];
+      let pendingUpdate = false;
+  
+      function destroyAnyNodes() {
+        // destroy current view template refs before rendering again
+        nodesToDestroy.forEach((el) => el.remove());
+        nodesToDestroy = [];
+      }
+  
+      // Function to update data bindings and loops
+      // call update() when you mutate state and need the updates to reflect
+      // in the dom
+      function update() {
+        if (pendingUpdate === true) {
+          return;
+        }
+        pendingUpdate = true;
+  
+        document.querySelectorAll("[data-el='div-1']").forEach((el) => {
+          renderTextNode(el, " ");
+        });
+  
+        document.querySelectorAll("[data-el='div-2']").forEach((el) => {
+          el.setAttribute("space", 80);
+        });
+  
+        document.querySelectorAll("[data-el='div-3']").forEach((el) => {
+          el.setAttribute("space", 52);
+        });
+  
+        document.querySelectorAll("[data-el='div-4']").forEach((el) => {
+          el.setAttribute("space", 24);
+        });
+  
+        document.querySelectorAll("[data-el='div-5']").forEach((el) => {
+          el.setAttribute("space", 80);
+        });
+  
+        document.querySelectorAll("[data-el='div-6']").forEach((el) => {
+          el.setAttribute("space", 24);
+        });
+  
+        document.querySelectorAll("[data-el='div-7']").forEach((el) => {
+          el.setAttribute("space", 77);
+        });
+  
+        document.querySelectorAll("[data-el='div-8']").forEach((el) => {
+          el.setAttribute("space", 24);
+        });
+  
+        destroyAnyNodes();
+  
+        pendingUpdate = false;
+      }
+  
+      // Update with initial state on first load
+      update();
+  
+      // Helper text DOM nodes
+      function renderTextNode(el, text) {
+        const textNode = document.createTextNode(text);
+        if (el?.scope) {
+          textNode.scope = el.scope;
+        }
+        if (el?.context) {
+          child.context = el.context;
+        }
+        el.after(textNode);
+        nodesToDestroy.push(el.nextSibling);
+      }
+    })();
+  </script>
+  a
